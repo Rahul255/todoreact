@@ -11,7 +11,7 @@ class TodoList extends Component {
     this.addItem = this.addItem.bind(this);
   }
 
-  addItem(e) {  
+  addItem(e) {
     if (this._inputElement.value !== "") {
       var newItem = {
         text: this._inputElement.value,
